@@ -1,0 +1,40 @@
+*{
+  padding:0px;
+  margin:0px;
+  font-family: 'Times New Roman';
+  box-sizing: border-box;
+  width: 100%;
+  /* background-color: rgb(195, 210, 234); */
+}
+.maincontainer {
+  width: 100%;
+ margin-top: 30vh;
+ 
+}
+/* .maincontainer form{
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 150px ;
+    row-gap: 2vh;
+    
+} */
+.signup {
+  height: 2rem;
+  width: 20rem;
+  border-radius: 0.5rem;
+  border: transparent;
+  background-color: aliceblue;
+  text-align: center;
+}
+
+.signupbtn {
+  height: 2rem;
+  width: 20rem;
+  border-radius: 0.5rem;
+  border: transparent;
+  background-color: cornflowerblue;
+  cursor: pointer;
+}
+
