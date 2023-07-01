@@ -20,7 +20,7 @@ const Login = () => {
             setUserDetails(userdetails);
             console.log(userDetails);
         }
-    }, [])
+    })
     let handleLogin = (e) => {
         const allData = JSON.parse(localStorage.getItem('signupInfo'));
         if (allData === null) {
@@ -31,7 +31,7 @@ const Login = () => {
             let length = allData.length;
             let userData = null;
             for (let i = 0; i < length; i++) {
-                if (Email.current.value == allData[i].Email) {
+                if (Email.current.value === allData[i].Email) {
                     userData = allData[i];
                 }
             }

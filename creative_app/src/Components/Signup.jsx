@@ -23,10 +23,10 @@ const Signup = () => {
   const handleInput = (e) => {
     e.preventDefault();
 
-    if (firstname.current.value == "" || lastname.current.value == "" ||Email.current.value == "" || Password.current.value=="") {
+    if (firstname.current.value === "" || lastname.current.value === "" ||Email.current.value === "" || Password.current.value==="") {
       notifyMsgFieldEmpty();
       console.log("worng password");
-    } else if( Password.current.value != ConfirmPassword.current.value){
+    } else if( Password.current.value !== ConfirmPassword.current.value){
       notifyMsgPasswordMismatch();
     }  else {
       let signupInfo = {
