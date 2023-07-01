@@ -20,7 +20,7 @@ const Login = () => {
             setUserDetails(userdetails);
             console.log(userDetails);
         }
-    })
+    },[userDetails])
     let handleLogin = (e) => {
         const allData = JSON.parse(localStorage.getItem('signupInfo'));
         if (allData === null) {

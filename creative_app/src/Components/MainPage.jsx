@@ -48,7 +48,7 @@ const MainPage = (props) => {
         <div>
           <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-              <a class="navbar-brand" >Navbar</a>
+              <span class="navbar-brand" >Navbar</span>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -68,7 +68,7 @@ const MainPage = (props) => {
                    {data !=null && <ul class="dropdown-menu">
                     {data.map((datum) => {
                         return (
-                          <li><a class="dropdown-item">{datum}</a></li>
+                          <li><span class="dropdown-item">{datum}</span></li>
                         )})}
                       {/* <li><a class="dropdown-item" href="#">Action</a></li>
                       <li><a class="dropdown-item" href="#">Another action</a></li>
