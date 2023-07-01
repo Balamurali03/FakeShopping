@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 function Items() {
     let [data, setData] = useState([]);
     useEffect(() => {
-        fetch('https://fakestoreapi.com/products')
+        fetch('https://fakestoreapi.com/products') 
             .then(res => res.json())
             .then(data => { console.log(data); setData(data) })
 
